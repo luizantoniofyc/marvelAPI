@@ -15,3 +15,6 @@ Para testar os endpoints, basta clonar o respositório em sua máquina e buildar
 
 ### Observações
 Com exceção do endpoint `/v1/characters/{characterId}` é obrigatório informar o parâmetro Limit nas requisições. Além disso, todos os dados da API são fictícios.
+
+### Importante
+Aplicação desenvolvida em .NET Core V2.2.106
