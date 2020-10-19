@@ -13,5 +13,5 @@ Para testar os endpoints, basta clonar o respositório em sua máquina e buildar
 * `/v1/characters/{characterId}/series`
 * `/v1/characters/{characterId}/stories`
 
-### Observação
-Com exceção do endpoint `/v1/characters/{characterId}` é obrigatório informar o parâmetro Limit nas requisições.
+### Observações
+Com exceção do endpoint `/v1/characters/{characterId}` é obrigatório informar o parâmetro Limit nas requisições. Além disso, todos os dados da API são fictícios.
