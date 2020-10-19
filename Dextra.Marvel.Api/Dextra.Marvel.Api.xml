@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dextra.Marvel.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Dextra.Marvel.Api.Controllers._Shared.BaseController">
+            <summary>
+            Base controller
+            </summary>
+        </member>
+        <member name="M:Dextra.Marvel.Api.V1.Controllers.CharacterController.GetCharacters(Microsoft.AspNetCore.Mvc.ApiVersion,Dextra.Marvel.Application.Models.Input.CharacterInput)">
+            <summary>
+            Fetches lists of comic characters with optional filters.
+            </summary>
+            <param name="apiVersion">API version. It`s automatically populated if using URL versioning.</param>
+            <param name="characterInput">Character filters</param>
+            <returns>Fetches lists of characters.</returns>
+        </member>
+        <member name="M:Dextra.Marvel.Api.V1.Controllers.CharacterController.GetCharacterById(Microsoft.AspNetCore.Mvc.ApiVersion,System.Int32)">
+            <summary>
+            This method fetches a single character resource. It is the canonical URI for any character resource provided by the API.
+            </summary>
+            <param name="apiVersion">API version. It`s automatically populated if using URL versioning.</param>
+            <param name="characterId">A single character id.</param>
+            <returns>Fetches a single character by id.</returns>
+        </member>
+        <member name="M:Dextra.Marvel.Api.V1.Controllers.CharacterController.GetCharacterComics(Microsoft.AspNetCore.Mvc.ApiVersion,System.Int32,Dextra.Marvel.Application.Models.Input.ComicInput)">
+            <summary>
+            Fetches lists of comics containing a specific character, with optional filters.
+            </summary>
+            <param name="apiVersion">API version. It`s automatically populated if using URL versioning.</param>
+            <param name="characterId">A single character id.</param>
+            <param name="comicInput">Comic filters</param>
+            <returns>Fetches lists of comics filtered by a character id.</returns>
+        </member>
+        <member name="M:Dextra.Marvel.Api.V1.Controllers.CharacterController.GetCharacterEvents(Microsoft.AspNetCore.Mvc.ApiVersion,System.Int32,Dextra.Marvel.Application.Models.Input.EventInput)">
+            <summary>
+            Fetches lists of events in which a specific character appears, with optional filters.
+            </summary>
+            <param name="apiVersion">API version. It`s automatically populated if using URL versioning.</param>
+            <param name="characterId">Schedule unique identifier (e.g. 123456)</param>
+            <param name="eventInput">Event filters</param>
+            <returns>Fetches lists of events filtered by a character id.</returns>
+        </member>
+        <member name="M:Dextra.Marvel.Api.V1.Controllers.CharacterController.GetCharacterSeries(Microsoft.AspNetCore.Mvc.ApiVersion,System.Int32,Dextra.Marvel.Application.Models.Input.SerieInput)">
+            <summary>
+            Fetches lists of comic series in which a specific character appears, with optional filters.
+            </summary>
+            <param name="apiVersion">API version. It`s automatically populated if using URL versioning.</param>
+            <param name="characterId">Schedule unique identifier (e.g. 123456)</param>
+            <param name="serieInput">Serie filters</param>
+            <returns>Fetches lists of series filtered by a character id.</returns>
+        </member>
+        <member name="M:Dextra.Marvel.Api.V1.Controllers.CharacterController.GetCharacterStories(Microsoft.AspNetCore.Mvc.ApiVersion,System.Int32,Dextra.Marvel.Application.Models.Input.StoryInput)">
+            <summary>
+            Fetches lists of comic stories featuring a specific character with optional filters.
+            </summary>
+            <param name="apiVersion">API version. It`s automatically populated if using URL versioning.</param>
+            <param name="characterId">Schedule unique identifier (e.g. 123456)</param>
+            <param name="storyInput">Story filters</param>
+            <returns>Fetches lists of stories filtered by a character id.</returns>
+        </member>
+    </members>
+</doc>

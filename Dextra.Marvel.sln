@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{BAC77DEB-F3BC-4102-848D-8787C6CF6EAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{154CA7FA-2C88-409D-B84A-3B31943BAF45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{0A76E91B-0B6C-44B5-B662-5166E44F5B32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{B69C12E6-E134-4953-B135-C027BA6FC50D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{9076D729-E9BF-468E-B625-30DF319B947A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dextra.Marvel.Api", "Dextra.Marvel.Api\Dextra.Marvel.Api.csproj", "{5952B0DC-170A-4296-818E-DA396D4F45FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dextra.Marvel.Application", "Dextra.Marvel.Application\Dextra.Marvel.Application.csproj", "{ECD6D9B5-7933-44F5-8BF1-A13C8571174D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dextra.Marvel.Domain", "Dextra.Marvel.Domain\Dextra.Marvel.Domain.csproj", "{205AD23E-F327-4F3A-AD5E-95E6E2090875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{468B3BA4-44EB-4BBE-86F0-0CF3FDEEF8B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - IoC", "4.2 - IoC", "{B7E71D4A-C765-4603-9114-E42CB385BB61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dextra.Marvel.Infra.Data", "Dextra.Marvel.Infra.Data\Dextra.Marvel.Infra.Data.csproj", "{F60A59C3-2402-4C4D-A6B9-60F26B8C42A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dextra.Marvel.Infra.IoC", "Dextra.Marvel.Infra.IoC\Dextra.Marvel.Infra.IoC.csproj", "{59B971ED-FB8C-4D6A-94A2-70A1BA135669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dextra.Marvel.Tests", "Dextra.Marvel.Tests\Dextra.Marvel.Tests.csproj", "{75C0D318-D9BF-4A27-8EE8-80A078D4F406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5952B0DC-170A-4296-818E-DA396D4F45FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5952B0DC-170A-4296-818E-DA396D4F45FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5952B0DC-170A-4296-818E-DA396D4F45FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5952B0DC-170A-4296-818E-DA396D4F45FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD6D9B5-7933-44F5-8BF1-A13C8571174D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD6D9B5-7933-44F5-8BF1-A13C8571174D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD6D9B5-7933-44F5-8BF1-A13C8571174D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD6D9B5-7933-44F5-8BF1-A13C8571174D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205AD23E-F327-4F3A-AD5E-95E6E2090875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205AD23E-F327-4F3A-AD5E-95E6E2090875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205AD23E-F327-4F3A-AD5E-95E6E2090875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205AD23E-F327-4F3A-AD5E-95E6E2090875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60A59C3-2402-4C4D-A6B9-60F26B8C42A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60A59C3-2402-4C4D-A6B9-60F26B8C42A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60A59C3-2402-4C4D-A6B9-60F26B8C42A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60A59C3-2402-4C4D-A6B9-60F26B8C42A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B971ED-FB8C-4D6A-94A2-70A1BA135669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B971ED-FB8C-4D6A-94A2-70A1BA135669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B971ED-FB8C-4D6A-94A2-70A1BA135669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B971ED-FB8C-4D6A-94A2-70A1BA135669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C0D318-D9BF-4A27-8EE8-80A078D4F406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C0D318-D9BF-4A27-8EE8-80A078D4F406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C0D318-D9BF-4A27-8EE8-80A078D4F406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C0D318-D9BF-4A27-8EE8-80A078D4F406}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5952B0DC-170A-4296-818E-DA396D4F45FD} = {BAC77DEB-F3BC-4102-848D-8787C6CF6EAA}
+		{ECD6D9B5-7933-44F5-8BF1-A13C8571174D} = {154CA7FA-2C88-409D-B84A-3B31943BAF45}
+		{205AD23E-F327-4F3A-AD5E-95E6E2090875} = {0A76E91B-0B6C-44B5-B662-5166E44F5B32}
+		{468B3BA4-44EB-4BBE-86F0-0CF3FDEEF8B7} = {B69C12E6-E134-4953-B135-C027BA6FC50D}
+		{B7E71D4A-C765-4603-9114-E42CB385BB61} = {B69C12E6-E134-4953-B135-C027BA6FC50D}
+		{F60A59C3-2402-4C4D-A6B9-60F26B8C42A6} = {468B3BA4-44EB-4BBE-86F0-0CF3FDEEF8B7}
+		{59B971ED-FB8C-4D6A-94A2-70A1BA135669} = {B7E71D4A-C765-4603-9114-E42CB385BB61}
+		{75C0D318-D9BF-4A27-8EE8-80A078D4F406} = {9076D729-E9BF-468E-B625-30DF319B947A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6A984EB-B217-47D6-AB62-111572BF8DCB}
+	EndGlobalSection
+EndGlobal
